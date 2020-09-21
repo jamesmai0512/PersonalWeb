@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>James Mai</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  </head>
+
+  <body>
+
+    <div class="box">
+      <img src="https://media-exp1.licdn.com/dms/image/C5603AQHhje7rcqPI_A/profile-displayphoto-shrink_200_200/0?e=1606348800&v=beta&t=oRxJ0Uid7-16xFLjtoOfEFFVwNoBYiKfALj35QTKfvU" alt="" class="box-img">
+      <h1>James Mai</h1>
+      <h5>Junior Software Developer</h5>
+      <h2>About me</h2>
+
+      <p>James is passionate about technology. I like to build personal projects. Most of my time, I am studying to work with projects. I prefer to work with new technology.
+        <br/>
+        <br/>
+        The technical stacks that I am working, including Ruby / Ruby on Rails, DB Browser for SQLite, HTML/CSS. I graduated as a College Diploma in Information Technology.
+      </p>
+
+      <hr/>
+      <h2>Education</h2>
+
+      <p> Management Development Institute of Singapore (MDIS), Singapore.<br/> <br/>College Diploma Information Technology, August 2020.</p>
+
+      <hr/>
+      <h2>Skill</h2>
+      <p>Languages: Fluent in English and Vietnamese. <br/> <br/>Work:  Experience and ability to work well with the team.</p>
+
+    </div>
+
+    <div class="box">
+      <ul>
+        <li><a href="https://github.com/jamesmai0512"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/james-mai-mai-van-khai-7b4865192/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <%= yield %>
+  </body>
+</html>
