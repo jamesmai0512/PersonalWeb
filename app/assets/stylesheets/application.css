@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+
   background-color: #8424d2; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#8424d2, #f0c92e) no-repeat;
+  background-image: linear-gradient(#8424d2, #f0c92e);
   background-size: cover;
 }
 
